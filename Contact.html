@@ -3,30 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>Contact VMOG</title>
+    <link rel="stylesheet" href="Style2.css">
   </head>
   <body>
+
     <hr>
     <h1>My Contact Details</h1>
     <hr>
+    <h2>Ing. Victor M. Ottati</h2>
     <p>Liverpool UK</p>
-    <p>+44 7932 310506</p>
-    <p>victor.ottati@gmail.com</p>
-    <hr><br>
+    <!-- <p>+44 7932 310506</p> -->
+    <!-- <p>victor.ottati@gmail.com</p> -->
+    <br>
 
-<form action="mailto:victor.ottati@gmail.com" method="post" enctype="text/plain">
+    <form class="" action="mailto:victor.ottati@gmail.com" method="post">
 
-  <label for="">Your Name:</label>
-  <input type="text" name="YourName" value="">
-  <br><br>
-  <label for="">Your eMail:</label>
-  <input type="email" name="YourEmail" value="">
-  <br><br>
-  <label for="">Your Message:</label>
-  <textarea name="YourMessage" rows="8" cols="80"></textarea>
-  <br><br>
-  <input type="submit" name="">
+      <label for="nombre">Name</label>
+      <input type="text" id="nombre" placeholder="Your Name">
 
-</form>
+      <label for="email">eMail</label>
+      <input type="text" id="email" placeholder="Your eMail">
 
+      <label for="mensaje">Message</label>
+      <textarea id="mensaje" placeholder="Your Message"></textarea>
+
+      <input type="submit" name="" value="Send">
+
+    </form>
   </body>
 </html>
